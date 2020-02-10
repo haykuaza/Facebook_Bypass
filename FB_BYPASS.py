@@ -44,7 +44,7 @@ while True:
 #	session.proxies = {"https":"159.89.245.69:3128"}
 #	browser = robobrowser.RoboBrowser(history=True, parser='html.parser', user_agent=useragent, session=session)
 
-	browser = robobrowser.RoboBrowser(Hystory=True, parser="html.parser", user_agent=useragent)
+	browser = robobrowser.RoboBrowser(History=True, parser="html.parser", user_agent=useragent)
 	browser.open(url)
 	print ("")
 	print (colored("Voce esta conectado em: "+ browser.url, "yellow"))
